@@ -1,0 +1,263 @@
+/*Helps with text responsiveness*/
+html {
+    font-size: calc(1em + 1vw);
+}
+
+/*Disable horizontal scroll*/
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*NAVIGATION*/
+.navbar-nav .nav-item .nav-link {
+    text-align: center;
+    background-color: #FBE8D8;
+
+}
+
+.nav-item a:link,
+.nav-item a:visited {
+    color: #000022;
+
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: #410B13;
+    /*    text-decoration: underline;*/
+
+}
+
+.navbar-nav .nav-item a.nav-link {
+    font-family: 'Staatliches', cursive;
+}
+
+/*Settings for BANNER IMAGE*/
+.banner-img {
+    background-image: url('../assets/portfolio-banner-tobi-working.svg');
+    background-repeat: no-repeat;
+    background-color: #F9DEC7;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+/*ABOUT ME SECTION*/
+/*Intro to About me section*/
+.about-me {
+    background-color: #410B13;
+
+}
+
+.about-me-title {
+    font-family: 'hunter_river_regular', cursive;
+    font-size: 0.8em;
+    padding-left: 40px;
+    color: white;
+    padding-top: 50px;
+    /*    center text vertically*/
+    display: flex;
+    align-items: center;
+}
+
+.about-me-title h1 {
+    font-family: 'hunter_river_regular', cursive;
+    text-align: center;
+}
+
+
+
+.about-me-text {
+    background-color: #FBF5F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6em;
+    padding: 50px;
+
+
+}
+
+/*SKILLS SECTION*/
+.skills {
+    background-color: white;
+    /*    background-color: #E6E6E6;*/
+}
+
+.section-title {
+    /*    font-family: 'Staatliches',
+cursive;*/
+    font-family: 'hunter_river_regular', cursive;
+    font-size: 1.5em;
+    color: #000022;
+    text-align: center;
+}
+
+/*Titles/ Names of skills mentioned*/
+.skill-title {
+    font-family: 'hunter_river_regular', cursive;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+/*FOOTER SECTION*/
+.footer {
+    background-color: #FBE8D8;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.5em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*
+.copyright {
+    color: #000022;
+}
+
+.copyright a:link,
+.copyright a:visited {
+    text-decoration: none;
+}
+
+.copyright a:hover,
+.copyright a:active {
+    text-decoration: none;
+}
+*/
+
+/*Display links in line*/
+.footer-ul {
+    display: inline;
+    margin: 0;
+}
+
+.footer-link {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+.footer a:link,
+.footer a:visited {
+    color: #410B13;
+}
+
+.footer a:hover,
+.footer a:active {
+    color: #000022;
+    font-style: italic;
+}
+
+
+
+
+/*
+Page Titles
+*/
+.title {
+    background-color: #F9DEC7;
+    font-family: 'hunter_river_regular', cursive;
+    font-size: 1em;
+    color: #000022;
+    text-align: center;
+
+}
+
+/*WEBSITE.PHP*/
+.website,
+.graphics,
+.ux-ui {
+    background-color: #FBF5F3;
+}
+
+/*WEBSITE-1 SECTION*/
+.website-1 {}
+
+/*WEBSITE-2 SECTION*/
+.website-2 {}
+
+/*WEBSITE-3 SECTION*/
+.website-3 {}
+
+/*
+Website thumbnails
+*/
+.website-img,
+.graphics-img,
+.ux-ui-img {
+    height: auto;
+    width: 100%;
+}
+
+.website-description,
+.graphics-description,
+.ux-ui-description {
+    text-align: center;
+}
+
+.website-title,
+.graphics-title,
+.ux-ui-title {
+    font-family: 'Staatliches', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    color: #410B13;
+}
+
+.website a:link,
+.website a:visited {
+    color: #410B13;
+}
+
+.website a:hover,
+.website a:active {
+    color: #000022;
+    text-decoration: none;
+}
+
+.website-description p,
+.graphics-description p,
+.ux-ui-description p,
+.ux-ui-description ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6em;
+}
+
+.ux-ui-description ul li {
+    text-align: left;
+}
+
+/*
+tools used
+*/
+.tool {
+    height: auto;
+    width: 40px;
+}
+
+/*GRAPHICS.php SECTION*/
+
+/*Make embedded video responsive*/
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
